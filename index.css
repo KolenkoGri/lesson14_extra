@@ -49,13 +49,14 @@
 .banner {
     width: 1180px;
     height: 844px;
+    position: relative;
 }
 
 .banner::after {
     content: url("img/image/start_picture.png");
     position: absolute;
-    top: 13%;
-    right: 22%
+    top: 7%;
+    right: 0%;
 }
 
 h2 {
