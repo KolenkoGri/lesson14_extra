@@ -11,6 +11,10 @@
     list-style-type: none;
 }
 
+.questions:last-child {
+    margin-bottom: 0;
+}
+
 .questions:nth-child(odd) {
     color: white;
     background-color: #440F51;
@@ -37,39 +41,37 @@
 }
 
 .label {
-    width: 369px;
-    height: 50px;
     font-weight: 400;
     font-size: 28px;
     line-height: 50px;
     color: #FFFFFF;
-    margin-left: 100px;
+    padding-left: 100px;
 }
 
 .banner {
+    margin-top: 146px;
+    height: 823px;
     width: 1180px;
-    height: 844px;
     position: relative;
 }
 
-.banner::after {
+.banner::after{
     content: url("img/image/start_picture.png");
     position: absolute;
-    top: 7%;
-    right: 0%;
+    top: 73px;
+    right: 17px;
+    height: 762px ;
+    width: 675px;
 }
 
 h2 {
-    width: 980px;
-    height: 56px;
     font-weight: 700;
     font-size: 40px;
     line-height: 50px;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-top: 100px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .bg{
